@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="imagens/CalcScript.png">
+    <title>CalcScript</title>
+</head>
+<body>
+    <div id="calculadora">
+        <h1 style="color: white;"><center>CalcScript</center></h1>
+        <input id="display" readonly>
+        <div id="botoesCalculadora">
+            <button onclick="colocarNoDisplay('+')" class="operador">+</button>
+            <button onclick="colocarNoDisplay('7')">7</button>
+            <button onclick="colocarNoDisplay('8')">8</button>
+            <button onclick="colocarNoDisplay('9')">9</button>
+            <button onclick="colocarNoDisplay('-')" class="operador">-</button>
+            <button onclick="colocarNoDisplay('4')">4</button>
+            <button onclick="colocarNoDisplay('5')">5</button>
+            <button onclick="colocarNoDisplay('6')">6</button>
+            <button onclick="colocarNoDisplay('*')" class="operador">*</button>
+            <button onclick="colocarNoDisplay('1')">1</button>
+            <button onclick="colocarNoDisplay('2')">2</button>
+            <button onclick="colocarNoDisplay('3')">3</button>
+            <button onclick="colocarNoDisplay('/')" class="operador">/</button>
+            <button onclick="colocarNoDisplay('.')" >.</button>
+            <button onclick="colocarNoDisplay('0')">0</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="limpar()" class="operador">Ce</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
