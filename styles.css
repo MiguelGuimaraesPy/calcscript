@@ -27,6 +27,7 @@ body {
     background-color: hsl(216, 80%, 71%);
     color: white;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 #botoesCalculadora {
